@@ -1,0 +1,65 @@
+body{
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 500px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border: 2px solid red;
+    align-items: center;
+    /* position: relative; */
+
+}
+
+.innerdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+#static{
+    position: static;
+    top: 0;
+}
+
+#relative{
+    position: relative;
+    top: 10%;
+}
+
+
+#sticky{
+    position: sticky;
+    background-color: orangered;
+    top: 0;
+    
+}
+
+
+
+#absolute{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+
+}
+
+#fixed{
+    position: fixed;
+    z-index: -1;
+    top: 0%;
+    right: 0%;
+} 
+
+
