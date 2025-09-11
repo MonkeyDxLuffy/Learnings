@@ -105,9 +105,40 @@ body {
   color: black;
 }
 
+
+
+
+
+
+
 /* Styles for dark theme */
 @media (prefers-color-scheme: dark) {
   body {
+    background-color: #121212; /* Dark grey background */
+    color: white; /* White text */
+    a{
+      color: white;
+
+    }
+    .body{
+        background-color: #121212;
+    }
+
+    .field{
+        color: white;
+        background-color: black;
+    }
+    .toggle_theme{
+        background-color: #172843;
+    
+    }
+  }
+}
+
+/* for toggle mode 0 */
+
+.dark-theme{
+
     background-color: #121212; /* Dark grey background */
     color: white; /* White text */
     a{
