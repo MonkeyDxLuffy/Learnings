@@ -146,7 +146,7 @@ body {
     width: 100%;
     background-image: url(./images/hero_section\ image.jpg);
     background-size: cover;
-    display: flex;  
+     display: flex;  
     /* neeche le jyega msg to fir padding de di */
     align-items: end;
     justify-content: center;
@@ -167,3 +167,72 @@ body {
     width: 95%;
     margin-bottom: 30px;
 }
+
+
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+  background-color: #FFE4E1;
+   background-size: cover;
+   flex-wrap: wrap;
+
+}
+.box{
+    
+    height: 430px;
+    width: 23%;
+    color: black;
+   
+    background-color: white;
+    margin: 8px;
+  
+
+}
+
+.box1_image, .box2_image ,  .box3_image ,  .box4_image ,  .box5_image ,  .box6_image ,  .box7_image ,  .box8_image{
+    background-image: url("Get-game-on.jpg");
+    height: 350px;
+    background-size: cover;
+    margin: 15px;
+}
+
+.box1 h2 , .box2 h2 , .box3 h2 , .box4 h2 , .box5 h2 , .box6 h2 ,.box7 h2 , .box8 h2{
+    color: black;
+    margin-left: 15px;
+}
+
+.box1 a , .box2 a , .box3 a , .box4 a , .box5 a , .box6 a , .box7 a , .box8 a{
+    margin-left: 15px;
+    color: #007185;
+}
+
+
+ 
+
+ /* foradding images  */
+
+ .box1_image{
+background-image: url("Get-game-on.jpg");
+ }
+ .box2_image{
+background-image: url("Get-game-on.jpg");
+ }
+ .box3_image{
+background-image: url("Get-game-on.jpg");
+ }
+ .box4_image{
+    background-image: url("Get-game-on.jpg");
+ }
+ .box5_image{
+background-image: url("Get-game-on.jpg");
+ }
+ .box6_image{
+    background-image: url("Get-game-on.jpg");
+ }
+ .box7_image{
+background-image: url("Get-game-on.jpg");
+ }
+ .box8_image{
+    background-image: url("Get-game-on.jpg");
+ }
