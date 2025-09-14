@@ -109,3 +109,34 @@ body {
     font-size: 20px;
     margin-right: 5px;
 }
+
+
+.panel{
+    display: flex;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #222f2d;
+    justify-content: space-evenly;
+   
+}
+
+.panel-options{
+    width: 80%;
+}
+
+.panel-options a{
+    
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+
+.panel-deals  {
+ font-size:.9rem;
+ font-weight: 700;
+}
+
