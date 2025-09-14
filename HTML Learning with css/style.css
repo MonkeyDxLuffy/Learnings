@@ -136,7 +136,34 @@ body {
 
 
 .panel-deals  {
- font-size:.9rem;
+ font-size:0.9rem;
  font-weight: 700;
 }
 
+/* hero image code */
+.hero-section{
+    height: 400px;
+    width: 100%;
+    background-image: url(./images/hero_section\ image.jpg);
+    background-size: cover;
+    display: flex;  
+    /* neeche le jyega msg to fir padding de di */
+    align-items: end;
+    justify-content: center;
+
+}
+
+.hero-msg p{
+     display: flex;
+     background-color: white;
+     color: black;
+     height: 40px;
+     justify-content: center;
+     align-items: center;
+     font-size: 15px;
+
+}
+.hero-msg{
+    width: 95%;
+    margin-bottom: 30px;
+}
