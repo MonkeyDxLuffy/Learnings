@@ -195,6 +195,7 @@ body {
     height: 350px;
     background-size: cover;
     margin: 15px;
+    width: 320px;
 }
 
 .box1 h2 , .box2 h2 , .box3 h2 , .box4 h2 , .box5 h2 , .box6 h2 ,.box7 h2 , .box8 h2{
@@ -213,26 +214,28 @@ body {
  /* foradding images  */
 
  .box1_image{
-background-image: url("Get-game-on.jpg");
+background-image: url(./images/gaming_console.jpg);
+
+
  }
  .box2_image{
-background-image: url("Get-game-on.jpg");
+background-image: url(./images/toys-image\ under\ 25.jpg);
  }
  .box3_image{
-background-image: url("Get-game-on.jpg");
+background-image: url(./images/boooks-naruto.jpg);
  }
  .box4_image{
-    background-image: url("Get-game-on.jpg");
+    background-image: url(./images/shoes_black\ friday\ section.jpg);
  }
  .box5_image{
-background-image: url("Get-game-on.jpg");
+background-image: url(./images/314524_0_jjix9p.webp);
  }
  .box6_image{
-    background-image: url("Get-game-on.jpg");
+    background-image: url(./images/ipad.webp);
  }
  .box7_image{
-background-image: url("Get-game-on.jpg");
+background-image: url(./images/i\ watch.webp);
  }
  .box8_image{
-    background-image: url("Get-game-on.jpg");
+    background-image: url(./images/iphone.webp);
  }
