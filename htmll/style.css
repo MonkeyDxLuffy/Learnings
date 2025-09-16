@@ -1,0 +1,62 @@
+h1{
+    text-align: center;
+    color: blueviolet;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+   
+}
+
+.input_bar{
+    padding: 20px;
+
+}
+
+
+ul{
+    display: flex;
+    gap:60px;
+    justify-content:space-between;
+    color: white;
+    
+}
+
+#intro{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+#html-tags{
+background-color: aqua;
+width: 250px;
+}
+
+.inputs{
+    align-items: center;
+    height: 30px;
+    display: flex; 
+    gap: 40px;
+}
+
+h3{
+    color: rgb(229, 240, 230);
+    background-color: black;
+}
+
+.input-lname{
+    margin-top: 20px;
+}
+
+#form-exp{
+    color: brown;
+}
