@@ -1,115 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>HTML LEARNING</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>HTML LEARNING</title>
 </head>
 <body>
-    <h1>HTML learnings </h1>
-       <div class="navbar">
-            <ul>
-                <li>About</li>
-                <li>Contact</li>
-                <li>More Services</li>
-                 <li>Blogs</li>
-            </ul>
-            
-            <div class="input_bar">
-                
-                <input id="input" type="text" placeholder="Contact">
-                <button>X</button>
-            </div>
-       </div>
 
-       <h2 id="intro" >Introduction to Html 5 & Text Elements</h2>
-       <h3>Html Tags and Elements</h3>
-       <ol id="html-tags">
-        <li>p ==> Paragraph</li>
-          <li>h1-h6 ==>Headings</li>
-            <li>a ==> Anchor/Links</li>
-              <li>img ==> Images</li>
-                <li>Div&Span ==> Container elements</li>
-       </ol>
+  <!-- Header -->
+  <header>
+    <h1>HTML Learnings</h1>
+    <nav class="navbar">
+      <ul>
+        <li>About</li>
+        <li>Contact</li>
+        <li>More Services</li>
+        <li>Blogs</li>
+      </ul>
+      <div class="input_bar">
+        <input id="input" type="text" placeholder="Contact">
+        <button>X</button>
+      </div>
+    </nav>
+  </header>
 
-        <h2 id="intro" >Forms / Input types / Label </h2>
-        <h3>Input Types</h3>
-        <div class="inputs">
-            <input type="text"> <p>Text</p>
+  <!-- Main content -->
+  <main>
+
+    <!-- Section: HTML Basics -->
+    <section>
+      <h2>Introduction to HTML5 & Text Elements</h2>
+      <h3>HTML Tags and Elements</h3>
+      <ol id="html-tags">
+        <li>p ⇒ Paragraph</li>
+        <li>h1–h6 ⇒ Headings</li>
+        <li>a ⇒ Anchor/Links</li>
+        <li>img ⇒ Images</li>
+        <li>div & span ⇒ Container elements</li>
+      </ol>
+    </section>
+
+    <!-- Section: Forms -->
+    <section>
+      <h2>Forms / Input Types / Labels</h2>
+      <h3>Input Types</h3>
+
+      <div class="inputs"><input type="text"> <p>Text</p></div><hr>
+      <div class="inputs"><input type="password"> <p>Password</p></div><hr>
+      <div class="inputs"><input type="radio"> <p>Radio</p></div><hr>
+      <div class="inputs"><input type="date"> <p>Date</p></div><hr>
+      <div class="inputs"><input type="checkbox"> <p>Checkbox</p></div><hr>
+      <div class="inputs"><input type="hidden"> <p>(Hidden) Hides input field</p></div><hr>
+
+      <h3>Forms & Labels</h3>
+      <form>
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname"><br>
+      </form>
+      <p id="form-exp">We use label and input tags for forms. They can be any of the input types mentioned above.</p>
+    </section>
+
+    <!-- Section: Multimedia -->
+    <section>
+      <h2>Multimedia Elements</h2>
+      <h3>Multimedia Formats (Audio & Video)</h3>
+
+      <article>
+        <p>There are many file formats:</p>
+        <ol>
+          <li>.MPEG</li>
+          <li>.AVI</li>
+          <li>.WMV</li>
+          <li>.RM</li>
+          <li>.RAM</li>
+        </ol>
+
+        <p>Supported HTML5 formats:</p>
+        <ol>
+          <li>.MP4</li>
+          <li>.WebM</li>
+          <li>.Ogg</li>
+        </ol>
+      </article>
+
+      <div class="mediacontent">
+        <div class="video">
+          <h3>Video</h3>
+          <video src="MP4 foldet/animation.mp4" height="200" width="455" controls autoplay loop poster="poster.jpg"></video>
         </div>
-        <hr>
 
-          <div class="inputs">
-            <input type="password"> <p>password</p>
+        <div class="audio">
+          <h3>Audio</h3>
+          <audio src="./MP3/rainy-day-in-town-with-birds-singing-194011.mp3" controls muted autoplay loop></audio>
         </div>
-        <hr>
 
-          <div class="inputs">
-            <input type="radio"> <p>radio</p>
+        <div class="embedding-content">
+          <h3>Embedded YouTube Video</h3>
+          <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/N8DDpLCASNs?si=l-W1eUdMvUA4Wmcf" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
         </div>
-        <hr>
-          <div class="inputs">
-            <input type="date"> <p>date</p>
-        </div>
-        <hr>
-          <div class="inputs">
-            <input type="checkbox"> <p>Checkbox</p>
-        </div>
-        <hr>
+      </div>
+    </section>
 
-          <div class="inputs">
-            <input type="hidden"> <p>(Hidden) Hides input filed</p>
-        </div>
-        <hr>
+  </main>
 
-        <h3>Forms & Labels</h3>
-        <form>
-            <label for="fname" >First Name</label><br>
-           <input type="text" ><br>
-           <label for="lname"> Last Name</label><br>
-           <input type="text" id="input-lname"><br>
-        </form>
-        
-        <p id="form-exp">We use label and input tags for forms They can be any which are mentioned above </p>
-
-<hr>
-              <h2 id="intro" >Multimedia Elements</h2>
-                <h3>Multimedia Format (Audio File)</h3>
-                <p>There are many file formats like
-                    <ol>
-                        <li>.Mpeg</li>
-                        <li>.Avi</li>
-                        <li>.WMV</li>
-                        <li>.rm</li>
-                        <li>.ram</li>
-                    </ol>
-                    <p>Supported format are</p>
-                    <ol>
-                        <li>.MP4 </li>
-                         <li>.Webm </li>
-                          <li>.Ogg </li>
-                    </ol>
-                </p>
-              <div class="mediacontent">
-                <div class="video">
-                    <h2>Video</h2>
-                     <video
-                      src="MP4 foldet/animation.mp4" height="200" width="455" controls autoplay loop  poster="poster.jpg"
-                      ></video>
-                </div>
-                <div class="audio">
-                        <h2>Audio</h2>
-                        <audio src="./MP3/rainy-day-in-town-with-birds-singing-194011.mp3" controls MUTED autoplay loop =""></audio>
-                </div>
-               <div class="embedding-content">
-                    <h2>Embedded YouTube Video</h2>
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/N8DDpLCASNs?si=l-W1eUdMvUA4Wmcf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                 </div>
-
-
-
-             
+  <!-- Optional Footer -->
+  <footer>
+    <p>© 2025 HTML Learning Page</p>
+  </footer>
 
 </body>
 </html>
