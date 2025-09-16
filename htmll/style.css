@@ -60,3 +60,8 @@ h3{
 #form-exp{
     color: brown;
 }
+
+.mediacontent{
+    display: flex;
+    justify-content: space-around;
+}
