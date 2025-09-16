@@ -30,7 +30,7 @@ ul{
     
 }
 
-#intro{
+h2{
     text-align: center;
     color: blueviolet;
 }
@@ -64,4 +64,7 @@ h3{
 .mediacontent{
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    color: rgb(189, 20, 113);
 }
+
