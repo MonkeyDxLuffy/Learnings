@@ -68,3 +68,10 @@ h3{
     color: rgb(189, 20, 113);
 }
 
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 40px;
+}
