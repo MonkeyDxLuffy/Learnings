@@ -65,6 +65,32 @@ console.log(sss);
 
 // function to check if a person can drive ot not 
 
+
+// normal function 
+
 function verification( x){
-        i
+        if( x>=18){
+            console.log("yes you are above 18 you can drive")
+        }
+        else{
+            console.log("you cannot drive you are less than 18")
+        }
 }
+// you can pass any valu to the function calling
+verification(56);
+
+// arrow function 
+
+let verify = (e)=>{
+     if( e>=18){
+            console.log("yes you are above 18 you can drive")
+        }
+        else{
+            console.log("you cannot drive you are less than 18")
+        }
+}
+
+verify(20);
+// we can assign value yo variabel also and then print it in console 
+// const result = verify(20);
+// console.log(result);
