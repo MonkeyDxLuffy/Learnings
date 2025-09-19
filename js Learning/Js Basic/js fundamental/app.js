@@ -94,3 +94,32 @@ verify(20);
 // we can assign value yo variabel also and then print it in console 
 // const result = verify(20);
 // console.log(result);
+
+
+// exploring more concept in js 
+
+// loop using ternery operator 
+
+console.log("ternary operator ");
+
+let aa=100; 
+let bb = 200 ; 
+
+let compare = (aa>bb) ? "aa is greater" : "bb is greater"
+console.log(compare)
+
+
+// srrings practice
+
+// backtickas
+
+let string1=`hlo i am ${100} for sale`;
+console.log(string1)
+
+let main_string="abcdefghijklmnopqrstuvwxyz"
+
+console.log(`length of main_string is ${main_string.length}`);
+console.log(`Char at 23 position ${main_string.charAt(23)}`)
+let slicee=main_string.slice(1, 5);  // 1st position pe ah kle 4 char extract kr lea last wala exclude hota hai
+console.log(slicee) // ye new array deta hai purane array ko change nhi krta 
+
