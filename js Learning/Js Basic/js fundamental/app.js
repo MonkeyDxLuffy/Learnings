@@ -123,3 +123,47 @@ console.log(`Char at 23 position ${main_string.charAt(23)}`)
 let slicee=main_string.slice(1, 5);  // 1st position pe ah kle 4 char extract kr lea last wala exclude hota hai
 console.log(slicee) // ye new array deta hai purane array ko change nhi krta 
 
+
+// Hoisting
+//  we have let var and const 
+// hoisting is something that help to declare any variable beforte the declearation 
+
+// only var can be hoisted let and const will give us an error 
+
+
+// using var it will give me undefined 
+console.log(anish)
+var anish=100;
+
+
+// using let it will give me refrence error 
+// uncomment
+// console.log(dada);
+// let dada = 100 ; 
+
+
+// using const it will give me undefined 
+
+// uncomment
+// console.log(abc);
+// let abc = 100 ; 
+
+
+// clousers with examples
+// it measn the inder function rembers the value of the outer function even after the execxution of the outer function 
+
+
+ function outerfunction (){
+    let outervalue="hello i am an outer function"
+
+    function innerfunction(){
+        console.log(outervalue)
+    }
+
+    return innerfunction
+}
+
+const answeris = outerfunction();
+answeris();
+
+// answer is returns inner function thats why we call it again for the result console.log
