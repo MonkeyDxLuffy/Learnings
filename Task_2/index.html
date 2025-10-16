@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>ShopCHOP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-bar">
+    Welcome to ShopCHOP
+  </div>
+  <nav class="navbar">
+    <div class="navbar-left">
+      <img src="./images/Helmerich & Payne Symbol SVG.svg" alt="ShopHub Logo" class="navbar-logo" />
+      <div class="search-bar">
+        <input type="text" placeholder="Search here..." />
+
+        <!-- drop down contents -->
+        <select>
+          <option>All Categories</option>
+          <option>Laptops</option>
+          <option>Accessories</option>
+          <option>Phones</option>
+          <option>Fashion</option>
+        </select>
+        <button>🔍</button>
+      </div>
+      <div class="navbar-info">🚚 Free Shipping</div>
+    </div>
+    <div class="navbar-center">
+      <ul class="navbar-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact US</a></li>
+        <li><a href="#">Vouchers</a></li>
+        <li><a href="#">Exclusive Offers</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <span class="navbar-user">👤</span>
+      <span class="navbar-cart" id="cartIcon"><span class="cart-badge" id="cartBadge">0</span>🛒</span>
+    </div>
+  </nav>
+  <div class="site-layout">
+    <aside class="sidebar">
+      <h2>Categories</h2>
+      <ul class="category-list">
+        <li class="active">Laptops</li>
+        <li>Accessories</li>
+        <li>Phones</li>
+        <li>PC</li>
+        <li>Lights</li>
+        <li>Camera</li>
+        <li>Headphones</li>
+        <li>Television</li>
+      </ul>
+     
+    </aside>
+    <main>
+      <section class="banner">
+      </section>
+      <div class="section-heading">Our Top Products!!</div>
+      <section class="grid" id="productGrid"></section>
+      <div class="cart-panel" id="cartPanel" style="display:none;"></div>
+    </main>
+  </div>
+  <footer class="footer">
+    © 2025 ShopCHOP.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
